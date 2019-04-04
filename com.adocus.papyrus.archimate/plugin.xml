@@ -13,7 +13,7 @@
          point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
       <profile
             description="ArchiMate Profile for Enterprise Architecture Modeling"
-            iconpath="icons/archimate-model-16.png"
+            iconpath="icons/archimate-togaf-128.png"
             name="ArchiMate"
             path="pathmap://ARCHIMATE_PROFILES/ArchiMate.profile.uml"
             provider="Adocus AB">
@@ -26,38 +26,16 @@
    			uri="http://www.adocus.com/archimate/archimateprofile" 
    			location="pathmap://ARCHIMATE_PROFILES/ArchiMate.profile.uml#_hXPvQHceEeWsMNQdZlFxTA"/> 
   </extension>
-  
   <extension
-        id="elementtypes1"
-        point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
-      <elementTypeSet
-            clientContextID="org.eclipse.papyrus.infra.services.edit.TypeContext"
-            path="resources/modelelement.typesconfigurations">
-      </elementTypeSet>
-   </extension>
+        point="org.eclipse.papyrus.infra.architecture.models">
+     <model
+           path="resources/archimate.architecture">
+     </model>
+  </extension>
+  
     
-    <extension
-          id="elementtypes2"
-          name="Common element types configurations"
-          point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
-      <elementTypeSet
-            clientContextID="org.eclipse.papyrus.infra.services.edit.TypeContext"
-            path="resources/common.typesconfigurations">
-      </elementTypeSet>
-   </extension>
    
 
 
-	<extension 
-		id="ArchiMate::DSML" 
-		point="org.eclipse.papyrus.infra.ui.papyrusDiagram">
-		<diagramCategory
-			class="com.adocus.papyrus.archimate.CreateArchiMateModelCommand"
-			description="Diagram for ArchiMate"
-			icon="icons/archimate-32.png"
-			id="ArchiMate::Model"
-			label="ArchiMate® 2.1">
-		</diagramCategory>
-	</extension>
 
 </plugin>
