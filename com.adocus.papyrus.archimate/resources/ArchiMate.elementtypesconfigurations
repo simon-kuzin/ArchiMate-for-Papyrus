@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:applystereotypeadvice="http://www.eclipse.org/papyrus/uml/types/applystereotypeadvice/1.1" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:stereotypematcher="http://www.eclipse.org/papyrus/uml/types/stereotypematcher/1.1" xmi:id="com.adocus.papyrus.archimate.elementTypes" identifier="com.adocus.papyrus.archimate.elementtypes" name="ArchiMate" metamodelNsURI="http://www.eclipse.org/uml2/5.0.0/UML">
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Access" identifier="com.adocus.papyrus.archimate.Access" name="Access" hint="UML::Usage" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2gleREemlydziJ_ouzw" iconPath="/icons/full/obj16/Usage.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2g1eREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Access</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Usage"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Aggregation_UML__Association" identifier="com.adocus.papyrus.archimate.Aggregation_UML::Association" name="Aggregation" hint="UML::Association" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2hVeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2hleREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Aggregation</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.ApplicationCollaboration" identifier="com.adocus.papyrus.archimate.ApplicationCollaboration" name="ApplicationCollaboration" hint="UML::Collaboration" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2iFeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Collaboration.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2iVeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::ApplicationCollaboration</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Collaboration"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.ApplicationComponent" identifier="com.adocus.papyrus.archimate.ApplicationComponent" name="ApplicationComponent" hint="UML::Component" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2i1eREemlydziJ_ouzw" iconPath="/icons/full/obj16/Component.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2jFeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::ApplicationComponent</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Component"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.ApplicationFunction" identifier="com.adocus.papyrus.archimate.ApplicationFunction" name="ApplicationFunction" hint="UML::Collaboration" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2jleREemlydziJ_ouzw" iconPath="/icons/full/obj16/Collaboration.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2j1eREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::ApplicationFunction</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Collaboration"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.ApplicationInteraction" identifier="com.adocus.papyrus.archimate.ApplicationInteraction" name="ApplicationInteraction" hint="UML::OpaqueBehavior" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2kVeREemlydziJ_ouzw" iconPath="/icons/full/obj16/OpaqueBehavior.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2kleREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::ApplicationInteraction</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.OpaqueBehavior"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.ApplicationInterface" identifier="com.adocus.papyrus.archimate.ApplicationInterface" name="ApplicationInterface" hint="UML::Interface" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2lFeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Interface.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2lVeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::ApplicationInterface</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Interface"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.ApplicationLayer" identifier="com.adocus.papyrus.archimate.ApplicationLayer" name="ApplicationLayer" hint="UML::Package" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2l1eREemlydziJ_ouzw" iconPath="/icons/full/obj16/Package.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2mFeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::ApplicationLayer</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Package"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.ApplicationService" identifier="com.adocus.papyrus.archimate.ApplicationService" name="ApplicationService" hint="UML::UseCase" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2mleREemlydziJ_ouzw" iconPath="/icons/full/obj16/UseCase.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2m1eREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::ApplicationService</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.UseCase"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Artifact" identifier="com.adocus.papyrus.archimate.Artifact" name="Artifact" hint="UML::Artifact" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2nVeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Artifact.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2nleREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Artifact</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Artifact"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Assessment" identifier="com.adocus.papyrus.archimate.Assessment" name="Assessment" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2oFeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2oVeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Assessment</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Assignment" identifier="com.adocus.papyrus.archimate.Assignment" name="Assignment" hint="UML::Dependency" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2o1eREemlydziJ_ouzw" iconPath="/icons/full/obj16/Dependency.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2pFeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Assignment</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Dependency"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Association_UML__Association" identifier="com.adocus.papyrus.archimate.Association_UML::Association" name="Association" hint="UML::Association" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2pleREemlydziJ_ouzw" iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2p1eREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Association</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.BusinessActor" identifier="com.adocus.papyrus.archimate.BusinessActor" name="BusinessActor" hint="UML::Actor" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2qVeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Actor.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2qleREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::BusinessActor</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Actor"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.BusinessCollaboration" identifier="com.adocus.papyrus.archimate.BusinessCollaboration" name="BusinessCollaboration" hint="UML::Collaboration" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2rFeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Collaboration.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2rVeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::BusinessCollaboration</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Collaboration"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.BusinessEvent" identifier="com.adocus.papyrus.archimate.BusinessEvent" name="BusinessEvent" hint="UML::OpaqueBehavior" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2r1eREemlydziJ_ouzw" iconPath="/icons/full/obj16/OpaqueBehavior.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2sFeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::BusinessEvent</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.OpaqueBehavior"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.BusinessFunction" identifier="com.adocus.papyrus.archimate.BusinessFunction" name="BusinessFunction" hint="UML::Collaboration" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2sleREemlydziJ_ouzw" iconPath="/icons/full/obj16/Collaboration.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2s1eREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::BusinessFunction</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Collaboration"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.BusinessInteraction" identifier="com.adocus.papyrus.archimate.BusinessInteraction" name="BusinessInteraction" hint="UML::OpaqueBehavior" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2tVeREemlydziJ_ouzw" iconPath="/icons/full/obj16/OpaqueBehavior.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2tleREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::BusinessInteraction</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.OpaqueBehavior"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.BusinessInterface" identifier="com.adocus.papyrus.archimate.BusinessInterface" name="BusinessInterface" hint="UML::Interface" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2uFeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Interface.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2uVeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::BusinessInterface</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Interface"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.BusinessLayer" identifier="com.adocus.papyrus.archimate.BusinessLayer" name="BusinessLayer" hint="UML::Package" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2u1eREemlydziJ_ouzw" iconPath="/icons/full/obj16/Package.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2vFeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::BusinessLayer</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Package"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.BusinessObject" identifier="com.adocus.papyrus.archimate.BusinessObject" name="BusinessObject" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2vleREemlydziJ_ouzw" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2v1eREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::BusinessObject</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.BusinessProcess" identifier="com.adocus.papyrus.archimate.BusinessProcess" name="BusinessProcess" hint="UML::OpaqueBehavior" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2wVeREemlydziJ_ouzw" iconPath="/icons/full/obj16/OpaqueBehavior.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2wleREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::BusinessProcess</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.OpaqueBehavior"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.BusinessRole" identifier="com.adocus.papyrus.archimate.BusinessRole" name="BusinessRole" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2xFeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2xVeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::BusinessRole</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.BusinessService" identifier="com.adocus.papyrus.archimate.BusinessService" name="BusinessService" hint="UML::UseCase" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2x1eREemlydziJ_ouzw" iconPath="/icons/full/obj16/UseCase.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2yFeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::BusinessService</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.UseCase"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.CommunicationPath_CommunicationPath" identifier="com.adocus.papyrus.archimate.CommunicationPath_CommunicationPath" name="CommunicationPath CommunicationPath" hint="UML::CommunicationPath" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2yleREemlydziJ_ouzw" iconPath="/icons/full/obj16/CommunicationPath.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2y1eREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::CommunicationPath</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.CommunicationPath"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.CommunicationPath_Node" identifier="com.adocus.papyrus.archimate.CommunicationPath_Node" name="CommunicationPath Node" hint="UML::Node" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok2zVeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Node.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok2zleREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::CommunicationPath</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Node"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Composition_UML__Association" identifier="com.adocus.papyrus.archimate.Composition_UML::Association" name="Composition" hint="UML::Association" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok20FeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok20VeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Composition</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Constraint" identifier="com.adocus.papyrus.archimate.Constraint" name="Constraint" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok201eREemlydziJ_ouzw" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok21FeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Constraint</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Contract" identifier="com.adocus.papyrus.archimate.Contract" name="Contract" hint="UML::Artifact" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok21leREemlydziJ_ouzw" iconPath="/icons/full/obj16/Artifact.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok211eREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Contract</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Artifact"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.DataObject" identifier="com.adocus.papyrus.archimate.DataObject" name="DataObject" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok22VeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok22leREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::DataObject</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Deliverable" identifier="com.adocus.papyrus.archimate.Deliverable" name="Deliverable" hint="UML::Artifact" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok23FeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Artifact.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok23VeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Deliverable</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Artifact"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Derived" identifier="com.adocus.papyrus.archimate.Derived" name="Derived" hint="UML::Dependency" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok231eREemlydziJ_ouzw" iconPath="/icons/full/obj16/Dependency.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok24FeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Derived</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Dependency"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Device" identifier="com.adocus.papyrus.archimate.Device" name="Device" hint="UML::Device" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok24leREemlydziJ_ouzw" iconPath="/icons/full/obj16/Device.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok241eREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Device</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Device"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Driver" identifier="com.adocus.papyrus.archimate.Driver" name="Driver" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok25VeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok25leREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Driver</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Flow_UML__InformationFlow" identifier="com.adocus.papyrus.archimate.Flow_UML::InformationFlow" name="Flow" hint="UML::InformationFlow" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok26FeREemlydziJ_ouzw" iconPath="/icons/full/obj16/InformationFlow.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok26VeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Flow</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.InformationFlow"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Gap" identifier="com.adocus.papyrus.archimate.Gap" name="Gap" hint="UML::Artifact" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok261eREemlydziJ_ouzw" iconPath="/icons/full/obj16/Artifact.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok27FeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Gap</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Artifact"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Goal" identifier="com.adocus.papyrus.archimate.Goal" name="Goal" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok27leREemlydziJ_ouzw" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok271eREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Goal</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Grouping" identifier="com.adocus.papyrus.archimate.Grouping" name="Grouping" hint="UML::Component" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok28VeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Component.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok28leREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Grouping</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Component"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.ImplementationAndMigrationExtension" identifier="com.adocus.papyrus.archimate.ImplementationAndMigrationExtension" name="ImplementationAndMigrationExtension" hint="UML::Package" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lok29FeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Package.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lok29VeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::ImplementationAndMigrationExtension</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Package"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Influence" identifier="com.adocus.papyrus.archimate.Influence" name="Influence" hint="UML::Dependency" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldkFeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Dependency.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldkVeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Influence</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Dependency"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.InfrastructureFunction" identifier="com.adocus.papyrus.archimate.InfrastructureFunction" name="InfrastructureFunction" hint="UML::Collaboration" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldk1eREemlydziJ_ouzw" iconPath="/icons/full/obj16/Collaboration.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldlFeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::InfrastructureFunction</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Collaboration"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.InfrastructureInterface" identifier="com.adocus.papyrus.archimate.InfrastructureInterface" name="InfrastructureInterface" hint="UML::Interface" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldlleREemlydziJ_ouzw" iconPath="/icons/full/obj16/Interface.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldl1eREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::InfrastructureInterface</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Interface"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.InfrastructureService" identifier="com.adocus.papyrus.archimate.InfrastructureService" name="InfrastructureService" hint="UML::UseCase" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldmVeREemlydziJ_ouzw" iconPath="/icons/full/obj16/UseCase.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldmleREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::InfrastructureService</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.UseCase"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Junction" identifier="com.adocus.papyrus.archimate.Junction" name="Junction" hint="UML::OpaqueBehavior" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldnFeREemlydziJ_ouzw" iconPath="/icons/full/obj16/OpaqueBehavior.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldnVeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Junction</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.OpaqueBehavior"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Location" identifier="com.adocus.papyrus.archimate.Location" name="Location" hint="UML::Node" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldn1eREemlydziJ_ouzw" iconPath="/icons/full/obj16/Node.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldoFeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Location</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Node"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Meaning" identifier="com.adocus.papyrus.archimate.Meaning" name="Meaning" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldoleREemlydziJ_ouzw" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldo1eREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Meaning</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.MotivationExtension" identifier="com.adocus.papyrus.archimate.MotivationExtension" name="MotivationExtension" hint="UML::Package" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldpVeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Package.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldpleREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::MotivationExtension</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Package"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Network_CommunicationPath" identifier="com.adocus.papyrus.archimate.Network_CommunicationPath" name="Network CommunicationPath" hint="UML::CommunicationPath" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldqFeREemlydziJ_ouzw" iconPath="/icons/full/obj16/CommunicationPath.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldqVeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Network</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.CommunicationPath"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Network_Node" identifier="com.adocus.papyrus.archimate.Network_Node" name="Network Node" hint="UML::Node" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldq1eREemlydziJ_ouzw" iconPath="/icons/full/obj16/Node.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldrFeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Network</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Node"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Node" identifier="com.adocus.papyrus.archimate.Node" name="Node" hint="UML::Node" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldrleREemlydziJ_ouzw" iconPath="/icons/full/obj16/Node.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldr1eREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Node</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Node"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Plateau" identifier="com.adocus.papyrus.archimate.Plateau" name="Plateau" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldsVeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldsleREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Plateau</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Principle" identifier="com.adocus.papyrus.archimate.Principle" name="Principle" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldtFeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldtVeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Principle</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Product" identifier="com.adocus.papyrus.archimate.Product" name="Product" hint="UML::Artifact" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldt1eREemlydziJ_ouzw" iconPath="/icons/full/obj16/Artifact.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lolduFeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Product</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Artifact"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Realization" identifier="com.adocus.papyrus.archimate.Realization" name="Realization" hint="UML::Realization" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lolduleREemlydziJ_ouzw" iconPath="/icons/full/obj16/Realization.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldu1eREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Realization</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Realization"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Representation" identifier="com.adocus.papyrus.archimate.Representation" name="Representation" hint="UML::Artifact" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldvVeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Artifact.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldvleREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Representation</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Artifact"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Requirement" identifier="com.adocus.papyrus.archimate.Requirement" name="Requirement" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldwFeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldwVeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Requirement</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Specialization" identifier="com.adocus.papyrus.archimate.Specialization" name="Specialization" hint="UML::Generalization" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldw1eREemlydziJ_ouzw" iconPath="/icons/full/obj16/Generalization.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldxFeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Specialization</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Generalization"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Stakeholder" identifier="com.adocus.papyrus.archimate.Stakeholder" name="Stakeholder" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldxleREemlydziJ_ouzw" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldx1eREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Stakeholder</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.SystemSoftware" identifier="com.adocus.papyrus.archimate.SystemSoftware" name="SystemSoftware" hint="UML::ExecutionEnvironment" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldyVeREemlydziJ_ouzw" iconPath="/icons/full/obj16/ExecutionEnvironment.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldyleREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::SystemSoftware</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.ExecutionEnvironment"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.TechnologyLayer" identifier="com.adocus.papyrus.archimate.TechnologyLayer" name="TechnologyLayer" hint="UML::Package" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldzFeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Package.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_loldzVeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::TechnologyLayer</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Package"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Triggering_UML__InformationFlow" identifier="com.adocus.papyrus.archimate.Triggering_UML::InformationFlow" name="Triggering" hint="UML::InformationFlow" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_loldz1eREemlydziJ_ouzw" iconPath="/icons/full/obj16/InformationFlow.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lold0FeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Triggering</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.InformationFlow"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.UsedBy" identifier="com.adocus.papyrus.archimate.UsedBy" name="UsedBy" hint="UML::Usage" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lold0leREemlydziJ_ouzw" iconPath="/icons/full/obj16/Usage.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lold01eREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::UsedBy</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Usage"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.Value" identifier="com.adocus.papyrus.archimate.Value" name="Value" hint="UML::Class" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lold1VeREemlydziJ_ouzw" iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lold1leREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::Value</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="com.adocus.papyrus.archimate.WorkPackage" identifier="com.adocus.papyrus.archimate.WorkPackage" name="WorkPackage" hint="UML::OpaqueBehavior" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <iconEntry xmi:type="elementtypesconfigurations:IconEntry" xmi:id="_lold2FeREemlydziJ_ouzw" iconPath="/icons/full/obj16/OpaqueBehavior.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xmi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration" xmi:id="_lold2VeREemlydziJ_ouzw">
+      <stereotypesQualifiedNames>ArchiMate::WorkPackage</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.OpaqueBehavior"/>
+  </elementTypeConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold2leREemlydziJ_ouzw" description="Apply Stereotype Access" identifier="com.adocus.papyrus.archimate.access" target="com.adocus.papyrus.archimate.Access">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold21eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Access" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold3FeREemlydziJ_ouzw" description="Apply Stereotype Aggregation" identifier="com.adocus.papyrus.archimate.aggregation_UML::Association" target="com.adocus.papyrus.archimate.Aggregation_UML__Association">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold3VeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Aggregation" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold3leREemlydziJ_ouzw" description="Apply Stereotype ApplicationCollaboration" identifier="com.adocus.papyrus.archimate.applicationCollaboration" target="com.adocus.papyrus.archimate.ApplicationCollaboration">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold31eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::ApplicationCollaboration" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold4FeREemlydziJ_ouzw" description="Apply Stereotype ApplicationComponent" identifier="com.adocus.papyrus.archimate.applicationComponent" target="com.adocus.papyrus.archimate.ApplicationComponent">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold4VeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::ApplicationComponent" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold4leREemlydziJ_ouzw" description="Apply Stereotype ApplicationFunction" identifier="com.adocus.papyrus.archimate.applicationFunction" target="com.adocus.papyrus.archimate.ApplicationFunction">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold41eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::ApplicationFunction" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold5FeREemlydziJ_ouzw" description="Apply Stereotype ApplicationInteraction" identifier="com.adocus.papyrus.archimate.applicationInteraction" target="com.adocus.papyrus.archimate.ApplicationInteraction">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold5VeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::ApplicationInteraction" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold5leREemlydziJ_ouzw" description="Apply Stereotype ApplicationInterface" identifier="com.adocus.papyrus.archimate.applicationInterface" target="com.adocus.papyrus.archimate.ApplicationInterface">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold51eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::ApplicationInterface" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold6FeREemlydziJ_ouzw" description="Apply Stereotype ApplicationLayer" identifier="com.adocus.papyrus.archimate.applicationLayer" target="com.adocus.papyrus.archimate.ApplicationLayer">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold6VeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::ApplicationLayer" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold6leREemlydziJ_ouzw" description="Apply Stereotype ApplicationService" identifier="com.adocus.papyrus.archimate.applicationService" target="com.adocus.papyrus.archimate.ApplicationService">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold61eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::ApplicationService" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold7FeREemlydziJ_ouzw" description="Apply Stereotype Artifact" identifier="com.adocus.papyrus.archimate.artifact" target="com.adocus.papyrus.archimate.Artifact">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold7VeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Artifact" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold7leREemlydziJ_ouzw" description="Apply Stereotype Assessment" identifier="com.adocus.papyrus.archimate.assessment" target="com.adocus.papyrus.archimate.Assessment">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold71eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Assessment" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold8FeREemlydziJ_ouzw" description="Apply Stereotype Assignment" identifier="com.adocus.papyrus.archimate.assignment" target="com.adocus.papyrus.archimate.Assignment">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold8VeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Assignment" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold8leREemlydziJ_ouzw" description="Apply Stereotype Association" identifier="com.adocus.papyrus.archimate.association_UML::Association" target="com.adocus.papyrus.archimate.Association_UML__Association">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold81eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Association" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold9FeREemlydziJ_ouzw" description="Apply Stereotype BusinessActor" identifier="com.adocus.papyrus.archimate.businessActor" target="com.adocus.papyrus.archimate.BusinessActor">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold9VeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::BusinessActor" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold9leREemlydziJ_ouzw" description="Apply Stereotype BusinessCollaboration" identifier="com.adocus.papyrus.archimate.businessCollaboration" target="com.adocus.papyrus.archimate.BusinessCollaboration">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold91eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::BusinessCollaboration" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold-FeREemlydziJ_ouzw" description="Apply Stereotype BusinessEvent" identifier="com.adocus.papyrus.archimate.businessEvent" target="com.adocus.papyrus.archimate.BusinessEvent">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold-VeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::BusinessEvent" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold-leREemlydziJ_ouzw" description="Apply Stereotype BusinessFunction" identifier="com.adocus.papyrus.archimate.businessFunction" target="com.adocus.papyrus.archimate.BusinessFunction">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold-1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::BusinessFunction" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold_FeREemlydziJ_ouzw" description="Apply Stereotype BusinessInteraction" identifier="com.adocus.papyrus.archimate.businessInteraction" target="com.adocus.papyrus.archimate.BusinessInteraction">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold_VeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::BusinessInteraction" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lold_leREemlydziJ_ouzw" description="Apply Stereotype BusinessInterface" identifier="com.adocus.papyrus.archimate.businessInterface" target="com.adocus.papyrus.archimate.BusinessInterface">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lold_1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::BusinessInterface" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleAFeREemlydziJ_ouzw" description="Apply Stereotype BusinessLayer" identifier="com.adocus.papyrus.archimate.businessLayer" target="com.adocus.papyrus.archimate.BusinessLayer">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleAVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::BusinessLayer" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleAleREemlydziJ_ouzw" description="Apply Stereotype BusinessObject" identifier="com.adocus.papyrus.archimate.businessObject" target="com.adocus.papyrus.archimate.BusinessObject">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleA1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::BusinessObject" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleBFeREemlydziJ_ouzw" description="Apply Stereotype BusinessProcess" identifier="com.adocus.papyrus.archimate.businessProcess" target="com.adocus.papyrus.archimate.BusinessProcess">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleBVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::BusinessProcess" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleBleREemlydziJ_ouzw" description="Apply Stereotype BusinessRole" identifier="com.adocus.papyrus.archimate.businessRole" target="com.adocus.papyrus.archimate.BusinessRole">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleB1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::BusinessRole" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleCFeREemlydziJ_ouzw" description="Apply Stereotype BusinessService" identifier="com.adocus.papyrus.archimate.businessService" target="com.adocus.papyrus.archimate.BusinessService">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleCVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::BusinessService" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleCleREemlydziJ_ouzw" description="Apply Stereotype CommunicationPath" identifier="com.adocus.papyrus.archimate.communicationPath" target="com.adocus.papyrus.archimate.CommunicationPath_CommunicationPath">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleC1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::CommunicationPath" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleDFeREemlydziJ_ouzw" description="Apply Stereotype CommunicationPath" identifier="com.adocus.papyrus.archimate.communicationPath" target="com.adocus.papyrus.archimate.CommunicationPath_Node">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleDVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::CommunicationPath" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleDleREemlydziJ_ouzw" description="Apply Stereotype Composition" identifier="com.adocus.papyrus.archimate.composition_UML::Association" target="com.adocus.papyrus.archimate.Composition_UML__Association">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleD1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Composition" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleEFeREemlydziJ_ouzw" description="Apply Stereotype Constraint" identifier="com.adocus.papyrus.archimate.constraint" target="com.adocus.papyrus.archimate.Constraint">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleEVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Constraint" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleEleREemlydziJ_ouzw" description="Apply Stereotype Contract" identifier="com.adocus.papyrus.archimate.contract" target="com.adocus.papyrus.archimate.Contract">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleE1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Contract" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleFFeREemlydziJ_ouzw" description="Apply Stereotype DataObject" identifier="com.adocus.papyrus.archimate.dataObject" target="com.adocus.papyrus.archimate.DataObject">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleFVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::DataObject" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleFleREemlydziJ_ouzw" description="Apply Stereotype Deliverable" identifier="com.adocus.papyrus.archimate.deliverable" target="com.adocus.papyrus.archimate.Deliverable">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleF1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Deliverable" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleGFeREemlydziJ_ouzw" description="Apply Stereotype Derived" identifier="com.adocus.papyrus.archimate.derived" target="com.adocus.papyrus.archimate.Derived">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleGVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Derived" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleGleREemlydziJ_ouzw" description="Apply Stereotype Device" identifier="com.adocus.papyrus.archimate.device" target="com.adocus.papyrus.archimate.Device">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleG1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Device" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleHFeREemlydziJ_ouzw" description="Apply Stereotype Driver" identifier="com.adocus.papyrus.archimate.driver" target="com.adocus.papyrus.archimate.Driver">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleHVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Driver" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleHleREemlydziJ_ouzw" description="Apply Stereotype Flow" identifier="com.adocus.papyrus.archimate.flow_UML::InformationFlow" target="com.adocus.papyrus.archimate.Flow_UML__InformationFlow">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleH1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Flow" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleIFeREemlydziJ_ouzw" description="Apply Stereotype Gap" identifier="com.adocus.papyrus.archimate.gap" target="com.adocus.papyrus.archimate.Gap">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleIVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Gap" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleIleREemlydziJ_ouzw" description="Apply Stereotype Goal" identifier="com.adocus.papyrus.archimate.goal" target="com.adocus.papyrus.archimate.Goal">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleI1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Goal" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleJFeREemlydziJ_ouzw" description="Apply Stereotype Grouping" identifier="com.adocus.papyrus.archimate.grouping" target="com.adocus.papyrus.archimate.Grouping">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleJVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Grouping" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleJleREemlydziJ_ouzw" description="Apply Stereotype ImplementationAndMigrationExtension" identifier="com.adocus.papyrus.archimate.implementationAndMigrationExtension" target="com.adocus.papyrus.archimate.ImplementationAndMigrationExtension">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleJ1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::ImplementationAndMigrationExtension" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleKFeREemlydziJ_ouzw" description="Apply Stereotype Influence" identifier="com.adocus.papyrus.archimate.influence" target="com.adocus.papyrus.archimate.Influence">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleKVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Influence" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleKleREemlydziJ_ouzw" description="Apply Stereotype InfrastructureFunction" identifier="com.adocus.papyrus.archimate.infrastructureFunction" target="com.adocus.papyrus.archimate.InfrastructureFunction">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleK1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::InfrastructureFunction" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleLFeREemlydziJ_ouzw" description="Apply Stereotype InfrastructureInterface" identifier="com.adocus.papyrus.archimate.infrastructureInterface" target="com.adocus.papyrus.archimate.InfrastructureInterface">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleLVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::InfrastructureInterface" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleLleREemlydziJ_ouzw" description="Apply Stereotype InfrastructureService" identifier="com.adocus.papyrus.archimate.infrastructureService" target="com.adocus.papyrus.archimate.InfrastructureService">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleL1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::InfrastructureService" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleMFeREemlydziJ_ouzw" description="Apply Stereotype Junction" identifier="com.adocus.papyrus.archimate.junction" target="com.adocus.papyrus.archimate.Junction">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleMVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Junction" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleMleREemlydziJ_ouzw" description="Apply Stereotype Location" identifier="com.adocus.papyrus.archimate.location" target="com.adocus.papyrus.archimate.Location">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleM1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Location" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleNFeREemlydziJ_ouzw" description="Apply Stereotype Meaning" identifier="com.adocus.papyrus.archimate.meaning" target="com.adocus.papyrus.archimate.Meaning">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleNVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Meaning" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleNleREemlydziJ_ouzw" description="Apply Stereotype MotivationExtension" identifier="com.adocus.papyrus.archimate.motivationExtension" target="com.adocus.papyrus.archimate.MotivationExtension">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleN1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::MotivationExtension" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleOFeREemlydziJ_ouzw" description="Apply Stereotype Network" identifier="com.adocus.papyrus.archimate.network" target="com.adocus.papyrus.archimate.Network_Node">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleOVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Network" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleOleREemlydziJ_ouzw" description="Apply Stereotype Network" identifier="com.adocus.papyrus.archimate.network" target="com.adocus.papyrus.archimate.Network_CommunicationPath">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleO1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Network" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lolePFeREemlydziJ_ouzw" description="Apply Stereotype Node" identifier="com.adocus.papyrus.archimate.node" target="com.adocus.papyrus.archimate.Node">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lolePVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Node" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lolePleREemlydziJ_ouzw" description="Apply Stereotype Plateau" identifier="com.adocus.papyrus.archimate.plateau" target="com.adocus.papyrus.archimate.Plateau">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleP1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Plateau" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleQFeREemlydziJ_ouzw" description="Apply Stereotype Principle" identifier="com.adocus.papyrus.archimate.principle" target="com.adocus.papyrus.archimate.Principle">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleQVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Principle" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleQleREemlydziJ_ouzw" description="Apply Stereotype Product" identifier="com.adocus.papyrus.archimate.product" target="com.adocus.papyrus.archimate.Product">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleQ1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Product" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleRFeREemlydziJ_ouzw" description="Apply Stereotype Realization" identifier="com.adocus.papyrus.archimate.realization" target="com.adocus.papyrus.archimate.Realization">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleRVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Realization" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleRleREemlydziJ_ouzw" description="Apply Stereotype Representation" identifier="com.adocus.papyrus.archimate.representation" target="com.adocus.papyrus.archimate.Representation">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleR1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Representation" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleSFeREemlydziJ_ouzw" description="Apply Stereotype Requirement" identifier="com.adocus.papyrus.archimate.requirement" target="com.adocus.papyrus.archimate.Requirement">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleSVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Requirement" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleSleREemlydziJ_ouzw" description="Apply Stereotype Specialization" identifier="com.adocus.papyrus.archimate.specialization" target="com.adocus.papyrus.archimate.Specialization">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleS1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Specialization" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleTFeREemlydziJ_ouzw" description="Apply Stereotype Stakeholder" identifier="com.adocus.papyrus.archimate.stakeholder" target="com.adocus.papyrus.archimate.Stakeholder">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleTVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Stakeholder" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleTleREemlydziJ_ouzw" description="Apply Stereotype SystemSoftware" identifier="com.adocus.papyrus.archimate.systemSoftware" target="com.adocus.papyrus.archimate.SystemSoftware">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleT1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::SystemSoftware" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleUFeREemlydziJ_ouzw" description="Apply Stereotype TechnologyLayer" identifier="com.adocus.papyrus.archimate.technologyLayer" target="com.adocus.papyrus.archimate.TechnologyLayer">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleUVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::TechnologyLayer" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleUleREemlydziJ_ouzw" description="Apply Stereotype Triggering" identifier="com.adocus.papyrus.archimate.triggering_UML::InformationFlow" target="com.adocus.papyrus.archimate.Triggering_UML__InformationFlow">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleU1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Triggering" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleVFeREemlydziJ_ouzw" description="Apply Stereotype UsedBy" identifier="com.adocus.papyrus.archimate.usedBy" target="com.adocus.papyrus.archimate.UsedBy">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleVVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::UsedBy" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleVleREemlydziJ_ouzw" description="Apply Stereotype Value" identifier="com.adocus.papyrus.archimate.value" target="com.adocus.papyrus.archimate.Value">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleV1eREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::Value" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_loleWFeREemlydziJ_ouzw" description="Apply Stereotype WorkPackage" identifier="com.adocus.papyrus.archimate.workPackage" target="com.adocus.papyrus.archimate.WorkPackage">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_loleWVeREemlydziJ_ouzw" stereotypeQualifiedName="ArchiMate::WorkPackage" updateName="true">
+      <requiredProfiles>ArchiMate</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>
